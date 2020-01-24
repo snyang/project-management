@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+# 项目管理规范
 
-You can use the [editor on GitHub](https://github.com/snyang/project-management.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## 管理点
+- [团队管理](./processes/team-roles.md)
+- 项目流程管理
+  - [里程碑](./processes/milestone-building-process.md)
+  - 燃耗控制(burnup)
+  - 燃尽控制(burndown)
+- 分支管理
+  [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/?spm=a2c4e.10696291.0.0.12aa19a4TyAf5I)
+- Issue管理
+- 特征开发流程
+- 特性测试流程
+- 缺陷修理流程
+- 代码提交流程
+- 项目估算
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 规范
+- [代码规范](coding/coding-guidelines.md)
+- [数据库设计规范](coding/database-design-guidelines.md)
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/snyang/project-management.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## 管理技巧
+- [技术部门管理 - 鲶鱼式管理](tips/catfish-management.md)
+- [没有管理者](tips/no-manager.md)
