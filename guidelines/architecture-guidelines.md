@@ -43,7 +43,8 @@
 - 缓存(cache)
 - 本地化(localization)
 - 全球化(globalization)
-- 适用性(accessibility)
+- 无障碍性(accessibility)
+- 使用跟踪
 - 单元测试(unit tests)
 - 自动测试(automation tests)
 - 第三方组件是否需要封装
