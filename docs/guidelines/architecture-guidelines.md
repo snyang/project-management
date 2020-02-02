@@ -4,10 +4,46 @@
 开发者
 
 ## 产出物
-- 技术栈
-- 组件的版本记录
-- 产品环境的前提需求
+- 开发的环境、工具、技术栈、组件、生产环境的管理
 - 开发规范
+- 架构设计
+
+## 什么是架构
+> 架构 = 基础架构 + 关键的业务架构
+
+### 基础架构
+- 层次(Layers)
+- 部署的逻辑结构(Deployment)
+- 版本控制(Product/File Versions)
+- 数据访问(Data Access)
+- 授权(Authorization)
+- 认证(Authentication)
+- 功能权限控制(Function Permission)
+- 数据权限控制(Data Permission)
+- 数据的版本控制(Data History)
+- 异常处理(Exception)
+- 缓存(Cache)
+- 后台进程
+- 消息机制
+- 性能(Performance)
+- 安全(Security)
+- 日志(Logging)
+- 审查(Audit)
+- 报表(Reports)
+- 导入(Import)
+- 导出(Export)
+- 打印(Print)
+- 接口(Interface)
+- 用户行为记录
+- 单元测试(Unit Tests)
+- 自动测试(Automation Tests)
+- 运维(Operation)
+- 部署(Deployment)
+
+### 业务架构
+- 列举核心业务
+- 针对核心业务设计架构
+
 
 ## 架构设计点
 - 软件的层次与结构
