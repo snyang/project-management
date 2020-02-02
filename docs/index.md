@@ -25,7 +25,7 @@
 ## 团队活动
 - standup meeting
 - 原型演示(prototype meeting)
-- 特性演示(demo meeting)
+- 功能演示(demo meeting)
 - 迭代/里程碑会议(iteration/milestone meeting)
 
 ## 规范
