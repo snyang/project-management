@@ -3,7 +3,7 @@
 ## 原则
 - 改变项目产出物的行为，必须定义一个Issue用来跟踪
 
-## Issue的层次类型
+## Issue的层次结构
 - 史诗(epic)
   可以对应一个新特性
 	可以对应一组相关的新特性
@@ -36,36 +36,29 @@
 - low
   一些用户交互上的次要问题，不影响数据的正确性。
 
-## Issue的常见标签
-- defect
-- feature
-- enhancement request
-- design
-- logical design
-- physical design
-- ui design
-- architecure
-- devops
-- install
-- doc
-- planning
+## Task的常见标签
+- bug
+- duplicate
+  （关闭）与另一个issue重复了
+- enhancement
+- help wanted
+- invalid
+  （关闭）不是一个bug
+- question
+- wontfix
+  （关闭）是一个bug，但是将不会修
 
-## Issue的状态
+## Issue的常用状态
 - new
 - triage
-- coding
+- in process
 - ready to test
 - testing
 - closed
+- rejected
 - information request
 - blocked
 
-## Issue的关闭原因
-- fixed
-  修好了。(有代码改动)
-- no plan to fix
-  是一个bug，但是不要修
-- function as designed
-  不是bug，满足设计的功能
-- duplicated
-	和另一个issue重复了。
+## 任务处理流程图
+
+![任务处理流程图](diagrams/task-development-process.dot.svg)

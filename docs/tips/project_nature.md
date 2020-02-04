@@ -11,7 +11,7 @@
 :+1: 增强团队的技术能力是一个关键问题。
 记住：没人会替你考虑这个问题。
 具体的方法见：
-- [部门管理 - 技术仓库](../tips/technique-repository.md)
+- [部门管理 - 技术知识仓库](../tips/technique-repository.md)
 - [职业发展 - 开发者进阶](../tips/career-path.md)
 
 ## 交付日期
