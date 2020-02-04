@@ -7,7 +7,7 @@
 - [团队角色](processes/team-roles.md)
 - [项目角色](processes/project-roles.md)
 - [项目入场流程](processes/project-entry-process.md)
-- [项目管理 - 团队管理规范](guidelines/team-management-guidelines.md)
+- [项目管理 - 项目管理工具](tools/project-management-tools.md)
 - [项目管理 - 追求技术深化](guidelines/technique-management.md)
 
 ## 流程
@@ -31,7 +31,7 @@
   [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model)
 
 ## 管理工具
-- [项目管理 - 项目管理工具](tools/project-developing-tools.md)
+- [项目管理 - 项目开发工具](tools/project-developing-tools.md)
 
 ## 管理技巧
 - [部门管理 - 鲶鱼式管理](tips/catfish-management.md)
