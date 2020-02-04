@@ -4,7 +4,8 @@
 
 本项目的目的：提供软件项目管理的规范；方便软件技术公司、开发人员使用；减少浪费在管理上的时间。
 
-链接：[软件项目管理规范](https://snyang.github.io/project-management)
+链接：[软件项目管理规范 on 码云](https://sn-yang.gitee.io/project-management/)
+链接：[软件项目管理规范 on Github](https://snyang.github.io/project-management)
 
 许可协议：[MIT](LICENSE)
 
@@ -24,5 +25,5 @@
 请在develop分支上提供你的贡献
 
 - 主要目录
-[README](README.md): 就是本文
-docs: 存放所有软件项目规范
+  - [README](README.md): 就是本文
+  - docs: 存放所有软件项目规范

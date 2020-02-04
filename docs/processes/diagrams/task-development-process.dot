@@ -1,0 +1,51 @@
+digraph "Task Development Diagram" {
+    fontname="Consolas"
+    fontsize=9
+    bgcolor="cornsilk"
+    #splines="curved"
+	#size="10,8"
+    #rankdir="TB"
+    label="任务处理流程图"
+	node    [
+                colorscheme=paired12 
+                color=3
+                style="rounded,filled" 
+                shape="rectangle" 
+                fontname="Consolas" 
+                fontsize=9
+            ]
+    graph   [color=cadetblue style="rounded" fontname="Consolas"]
+    edge    [color=cadetblue fontname="Consolas" fontsize=9]
+
+    subgraph cluster0 {
+        "start"                 [color=3 label="+"]
+        "new"                   [color=3]
+        "triaged"               [color=3]
+        "rejected"              [color=5]
+        "in process"            [color=3]
+        "ready to test"         [color=3]
+        "testing"               [color=3]
+        "closed"                [color=3]
+        label=""
+    }
+    "blocked"               [color=3]
+    "information request"   [color=3]
+
+    "start"                 -> "new"                    [label="anyone.submit"]
+    "new"                   -> "triaged"                [label="busines-analyst.triage"]
+    "triaged"               -> "triaged"                [label="developer.assign"]
+    
+    "triaged"               -> "in process"             [label="developer.work"]
+    "in process"            -> "ready to test"          [label="developer.resolve"]
+    "ready to test"         -> "testing"                [label="tester.work"]
+    "testing"               -> "closed"                 [label="tester.verify"]
+
+    "testing"               -> "rejected"               [label="tester.reject"]
+    "rejected"              -> "in process"             [label="developer.work" constraint=false]
+
+    "in process"            -> "blocked"                [label="blocking"  constraint=false]
+    "blocked"               -> "triaged"                [label="resolved"]
+
+    "in process"            -> "information request"    [label="need more information" constraint=false]
+    "information request"   -> "triaged"                [label="information provided"]
+}

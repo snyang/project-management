@@ -2,38 +2,46 @@
 
 ## 编辑器
 - vscode
-- intelij
-- git
-- vscode: restclient
-- vscode: remote SSH
+- vscode ext: restclient
 
 ## 代码托管
-- github
-- 码云
+- git
+- [github](https://github.com)
+- [码云](https://gitee.com)
+- [Git-Zen](https://www.git-zen.com/)
+  Git-Zen is a simple yet powerful Git and TFS integration application for Zendesk.
+  Git-Zen Lite: free
 
-## 团队管理
+## 团队协作
 ### 工作平台
 - 钉钉
-- WeLink
+- 企业微信
+- 华为welink
 - 飞书
+- Microsoft Teams
 
 ### 看板管理
 - Trello
 - Teambition
 - Leangoo
 
-### 团队交流
-- Slack
-
 ### 视频会议
+- webex
 - zoom
 
+### 团队交流
+- slack
+
 ### 知识库管理
-- 语雀
+- [语雀](https://www.yuque.com)
+  专业的云端知识库
 
 ## 写书
-- https://www.gitbook.com/
+- [gitbook](https://www.gitbook.com)
   Free: 10 spaces / Custom domain
+
+## 数据库设计工具
+- [Database Modeling Excel](https://github.com/snyang/Database-Modeling-Excel)
 
 ## 数据库工具
 - DBeaver
@@ -41,8 +49,21 @@
 - [mongodb] Robo 3T
 
 ## 画图
-- graphviz
-- process on
+### 脚本画图工具
+- [Flowchart JS](http://flowchart.js.org/)
+  Draws simple SVG flow chart diagrams from textual representation of the diagram
+
+- [Graphviz](http://graphviz.org/)
+  Graphviz is open source graph visualization software. 
+
+- [Mermaid](https://mermaidjs.github.io/)
+  
+- [PlantUML](https://plantuml.com)
+  UML and Gantt
+
+### 在线画图
+- [ProcessOn](https://www.processon.com/)
+- [Draw IO](https://www.draw.io/)
 
 ## 终端
 - putty
@@ -53,9 +74,7 @@
 - FileZilla
 
 ## 设计
-- 稿定设计
-  https://www.gaoding.com/features/6
-- canva社交平台
-  https://www.canva.cn/
-- https://stokpic.com/
+- [稿定设计](https://www.gaoding.com)
+- [canva社交平台](https://www.canva.cn)
+- [stokpic](https://stokpic.com)
   Free photo
